@@ -32,33 +32,5 @@ contract VotingPoll {
 
         emit Voted(msg.sender, optionIndex);
     }
-
-
-    // struct Option {
-    //     string description;
-    //     uint256 votes;
-    // }
-
-    // address public owner;
-    // string public question;
-    
-    // Option[] public options;
-    // mapping(address => bool) public hasVoted;
-
-    // constructor(string memory _question, string[] memory _options) {
-    //     owner = msg.sender;
-    //     question = _question;
-    //     for (uint i =  0; i < _options.length; i++) {
-    //         options.push(Option({description: _options[i], votes:  0}));
-    //     }
-    // }
-
-    // function vote(uint256 optionIndex) public {
-    //     require(!hasVoted[msg.sender], "You have already voted.");
-    //     require(optionIndex < options.length, "Invalid option index.");
-
-    //     options[optionIndex].votes++;
-    //     hasVoted[msg.sender] = true;
-    // }
 }
 
