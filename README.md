@@ -24,3 +24,9 @@ Address of Voting Poll contract created from interaction
 [Link to VotingPollFactory contract on Etherscan](https://sepolia.etherscan.io/address/0x531A2F36969eF63016dd559e965fef9d1F3674F1)
 
 [Link to VotingPoll contract on Etherscan](https://sepolia.etherscan.io/address/0xe8cda907c49f28870765f1e3846043199bcb4ab2)
+
+Result of interaction
+
+![Alt text](<Screenshot from 2024-02-26 20-21-16.png>)
+
+![Alt text](<Screenshot from 2024-02-26 20-22-00.png>)
