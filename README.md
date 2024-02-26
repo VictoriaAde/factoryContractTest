@@ -27,6 +27,6 @@ Address of Voting Poll contract created from interaction
 
 Result of interaction
 
-![Alt text](<Screenshot from 2024-02-26 20-21-16.png>)
+![Alt text](images/factoryContract.png)
 
-![Alt text](<Screenshot from 2024-02-26 20-22-00.png>)
+![Alt text](images/votingPoll.png)
