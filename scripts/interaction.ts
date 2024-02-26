@@ -13,8 +13,16 @@ async function main() {
   const question = "What is your president";
   const options = ["Buhari", "Tinubu"];
 
-  const createPollTx = await votingFactory.createPoll(question, options);
-  await createPollTx.wait();
+  // const createPollTx = await votingFactory.createPoll(question, options);
+  // await createPollTx.wait();
+
+  const votingPollAddr = "0xe8cda907c49f28870765f1e3846043199bcb4ab2";
+  const votingPoll = await ethers.getContractAt("IVotingPoll", votingPollAddr);
+
+  // const voteTx = await votingPoll.vote(1);
+  // await voteTx.wait();
+
+  // const getPolls = await votingFactory.getDeployedPolls();
 }
 
 main().catch((error) => {

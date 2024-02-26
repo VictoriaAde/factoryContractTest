@@ -18,4 +18,9 @@ Transaction hash of contract creation
 Transaction hash of interaction with createPoll function
 0x9767f9cf9a0f3b59482752db630f6e60097ee44adfa3cb59be827c25f7c9fd78
 
-[Link to contract on EtherScan](https://sepolia.etherscan.io/address/0x531A2F36969eF63016dd559e965fef9d1F3674F1)
+Address of Voting Poll contract created from interaction  
+0xe8cda907c49f28870765f1e3846043199bcb4ab2
+
+[Link to VotingPollFactory contract on Etherscan](https://sepolia.etherscan.io/address/0x531A2F36969eF63016dd559e965fef9d1F3674F1)
+
+[Link to VotingPoll contract on Etherscan](https://sepolia.etherscan.io/address/0xe8cda907c49f28870765f1e3846043199bcb4ab2)
